@@ -13,6 +13,9 @@ import { CmpCvFormComponent } from './cmp-cv/cmp-cv-form/cmp-cv-form.component';
 import { CmpCvPreviewComponent } from './cmp-cv/cmp-cv-preview/cmp-cv-preview.component';
 import { CmpPipesComponent } from './cmp-pipes/cmp-pipes.component';
 import { CambiarSimboloPipe } from './cmp-pipes/cambiar-simbolo.pipe';
+import { HideWordsPipe } from './cmp-pipes/hide-words.pipe';
+import { CmpDirectivasComponent } from './cmp-directivas/cmp-directivas.component';
+import { BlinkDirective } from './cmp-directivas/blink.directive';
 
 @NgModule({
   declarations: [
@@ -26,7 +29,10 @@ import { CambiarSimboloPipe } from './cmp-pipes/cambiar-simbolo.pipe';
     CmpCvFormComponent,
     CmpCvPreviewComponent,
     CmpPipesComponent,
-    CambiarSimboloPipe
+    CambiarSimboloPipe,
+    HideWordsPipe,
+    CmpDirectivasComponent,
+    BlinkDirective
   ],
   imports: [
     BrowserModule,
