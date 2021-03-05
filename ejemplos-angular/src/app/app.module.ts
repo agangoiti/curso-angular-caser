@@ -16,6 +16,11 @@ import { CambiarSimboloPipe } from './cmp-pipes/cambiar-simbolo.pipe';
 import { HideWordsPipe } from './cmp-pipes/hide-words.pipe';
 import { CmpDirectivasComponent } from './cmp-directivas/cmp-directivas.component';
 import { BlinkDirective } from './cmp-directivas/blink.directive';
+import { FiltroPipe } from './cmp-directivas/filtro.pipe';
+import { CmpFormulariosComponent } from './cmp-formularios/cmp-formularios.component';
+import { CmpReactivosComponent } from './cmp-formularios/cmp-reactivos/cmp-reactivos.component';
+import { CmpPlantillaComponent } from './cmp-formularios/cmp-plantilla/cmp-plantilla.component';
+import { ErrorFormComponent } from './cmp-formularios/error-form/error-form.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +37,12 @@ import { BlinkDirective } from './cmp-directivas/blink.directive';
     CambiarSimboloPipe,
     HideWordsPipe,
     CmpDirectivasComponent,
-    BlinkDirective
+    BlinkDirective,
+    FiltroPipe,
+    CmpFormulariosComponent,
+    CmpReactivosComponent,
+    CmpPlantillaComponent,
+    ErrorFormComponent
   ],
   imports: [
     BrowserModule,
